@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+    background: #F2F2F2;
+    height: 100%;
+    width: 99%;
+}
+
+.container {
+    position: relative;
+    background: #ffffff;
+    width: 320px;
+    height: 497px;
+    top: 50px;
+    left: 560px;
+    border-radius: 20px;
+}
+
+.qr {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    border-radius: 10px;
+}
+
+.texto-grande {
+    position: absolute;
+    text-align: center;
+    width: 288px;
+    height: 56px;
+    top: 300px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: 'outfit';
+    font-style: normal;
+    padding: 10px;
+}
+
+.texto-pequeno {
+    position: absolute;
+    text-align: center;
+    top: 400px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #7D889E;
+    left: 35px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        left: 75px;
+    }
+}
